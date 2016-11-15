@@ -261,8 +261,6 @@ namespace AnExporter
                         lsType += "({0},{1})".FormatWith(lnNumericPrecision, lnNumericScale);
                     else if (lnNumericPrecision > 0)
                         lsType += "({0})".FormatWith(lnNumericPrecision);
-                    else
-                        lsType += "(22)";
                 }
 
                 lsNotNull = string.Empty;
